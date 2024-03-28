@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  master:
+    image: test-image
+    ports:
+      - 18000:18000
+    restart: always
